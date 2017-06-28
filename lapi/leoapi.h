@@ -186,7 +186,7 @@ done public extern lapiobj phyGetlapiObject(lapiphy *obj);
 done public extern void phyDisableDefaultCollisionBehaviour(lapiphy *obj,bool disable);
 done public extern void phyDisableCollision(lapiphy *obj,bool disable);
 done public extern void phyDisableMovement(lapiphy *obj,bool disable);
-public extern lapiobj phyFinalize(lapiPhysicalObject *obj);
+done public extern lapiobj phyFinalize(lapiPhysicalObject *obj);
 
 #define KEY_PRESSED (1 << 0)
 #define KEY_RELEASED (1 << 1)
